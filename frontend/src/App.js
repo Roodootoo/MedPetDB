@@ -15,12 +15,23 @@ function handleSubmit(event) {
     .catch(err => console.log(err))
 }
 
+function save_form() {
+}
+
 function App() {
   return (
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
+          <label htmlFor='pet_name-input'>Надо как-то прикрутить авторизацию пользователей, у которых будет пачка питомцев </label>
+        </p>
+        <p>
+    	  <label htmlFor='pet_name-input'>Имя питомца </label>
+          <input id='pet_name-input' type='text' placeholder="my string"/><span> </span>
+          <button onClick={save_form}>Сохранить</button>
+		</p>
+		<p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
         <div>
