@@ -1,1 +1,1 @@
-some garbage file
+This is some garbage file for all
